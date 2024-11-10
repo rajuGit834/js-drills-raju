@@ -4,7 +4,7 @@ function userOfMasters(users){
             throw new Error ("Pass a valid arguments");
         }
         else if(typeof(users) !== 'object'){
-            throw new Error("Your are not passing object");
+            throw new Error("You are not passing object");
         }
 
         const mastersList = [];
